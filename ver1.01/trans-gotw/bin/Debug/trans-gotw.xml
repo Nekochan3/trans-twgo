@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+trans-gotw
+</name>
+</assembly>
+<members>
+<member name="T:trans_gotw.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:trans_gotw.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:trans_gotw.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:trans_gotw.VBStrings.LenB(System.String)">
+ -----------------------------------------------------------------------------------------
+ <summary>
+     半角 1 バイト、全角 2 バイトとして、指定された文字列のバイト数を返します。</summary>
+ <param name="stTarget">
+     バイト数取得の対象となる文字列。</param>
+ <returns>
+     半角 1 バイト、全角 2 バイトでカウントされたバイト数。</returns>
+ -----------------------------------------------------------------------------------------
+</member>
+</members>
+</doc>
